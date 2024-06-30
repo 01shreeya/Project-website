@@ -1,0 +1,243 @@
+body {
+    background-color: #656464;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+h1{
+    color:white;
+    font-size: 3em;
+    padding-right: 15em;
+    display: auto;
+}
+.recommendation img {
+    height: 700px;
+    width: 1400px;
+    box-shadow: 10px 10px 10px #4f4f4f;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333333;
+    padding: 1em;
+
+}
+
+.wp-name{
+    font-weight: bolder ;
+    font-style: italic;
+    float: left;
+    font-size: 50px;
+    color: #ffffff;
+    margin: 0;
+    margin-right: auto;
+    padding: 10px;
+}
+h3{color: #ffffff;}
+h2{
+    background-color: #232323;
+    width: auto;
+    color: #ffffff;
+    /* justify-content: center; */
+    /* margin: 0.75em 1.2em; */
+    border-radius: 12px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    /* float: left; */
+    padding: 0.5em; 
+    margin: 0%;
+    /* box-shadow:8px 0px #2c2c2c; */
+}
+
+
+nav ul {
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    background-color: #232323;
+    align-self: start;
+    justify-content: center;
+    margin: 0.75em 1.2em;
+    border-radius: 6px;
+    padding: 1em; 
+    margin-top: 2em;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Sections */
+.home, .about, .causes, .impact, .solutions, .get-involved {
+    padding: 3rem 2rem;
+    
+    border-radius: 6px;
+   
+    padding: 1em;
+    
+}
+.about ,.contact{
+    padding: 2em;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.home {
+    color: #000000;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+.gi-p{
+
+    border: 3px solid #333333;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 0.1em;
+    
+
+}
+.home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.cause-item, .impact-item, .solution-item, .intro{
+    margin-bottom: 2rem;
+    border: 2.5px solid #333333;
+    border-radius: 6px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding:  0.5em;
+    margin: 0;
+    background-color:#ffffff;
+    box-shadow:8px 8px 5px #2c2c2c;
+
+}
+.form-group{
+    border: 2.5px solid #333333;
+    padding: 1em;
+    width: auto;
+}
+
+/* Get Involved Section */
+
+.get-involved {
+   
+    background-color: #f6f6f6;
+    text-align: center;
+    
+}
+.get-involved h3{
+    background-color: #232323;
+    width: 15em;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: normal;
+    /* justify-content: center; */
+    /* margin: 0.75em 1.2em; */
+    border-radius: 12px;
+    
+   float: left;
+    /* justify-items: left; */
+    padding: 0.5em; 
+    margin: 0%;
+    
+}
+h4{
+   
+    border-radius: 6px;
+    font-size: 40px;
+    background-color: #333333;
+    color: #fff;
+    /* box-shadow:8px 8px 5px #2c2c2c; */
+    border: 2.5px solid #333333;
+    margin: 0;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    /* float: left; */
+
+}
+
+.involvement-options {
+    margin: 2rem;
+}
+
+.btn {
+    font-size: 10px;
+    font-weight: bolder;
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    margin: 0 1rem;
+}
+
+/* Form Styles */
+.form-group {
+    
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    float: left;
+}
+
+.form-group input{
+    width: 95%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+    
+
+}
+.form-group textarea {
+    width: 95%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 1px;
+}
+
+.error {
+    color: #dc3545;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.success {
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}                                                                                                                                                                                                                                  
